@@ -110,8 +110,7 @@ li {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: var(--regular-size);
-  padding-right: 0;
+  padding: var(--regular-size) 0;
 }
 
 .about-us__heading {
@@ -133,8 +132,7 @@ li {
 .about-us__list {
   display: flex;
   flex-direction: column;
-  padding: var(--regular-size);
-  padding-right: 0;
+  padding: var(--regular-size) 0;
 }
 
 .about-us__list-item--title {
@@ -156,7 +154,6 @@ li {
   background-color: var(--intense-background-color);
   color: var(--primary-color);
   display: flex;
-  justify-content: center;
   width: 100%;
   z-index: -1;
 }
@@ -166,6 +163,7 @@ li {
   font-weight: var(--bold-font);
   letter-spacing: -0.015rem;
   line-height: 23px;
+  padding-left: 3rem;
 }
 
 .about-us__list-item--content {
