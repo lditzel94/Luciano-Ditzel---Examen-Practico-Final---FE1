@@ -263,7 +263,7 @@ li {
   width: 134px;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 426px) {
     body {
         display: none;
     }
