@@ -136,6 +136,7 @@ li {
 .about-us__list {
   display: flex;
   flex-direction: column;
+  gap: 3rem;
   padding: var(--regular-size) 0;
 }
 
