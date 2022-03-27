@@ -53,7 +53,7 @@ li {
 }
 
 .background-pattern {
-  background-image: url("./imagenes/bg-tablet-pattern.svg");
+  background-image: url("../imagenes/bg-tablet-pattern.svg");
   background-size: 440px;
 }
 
