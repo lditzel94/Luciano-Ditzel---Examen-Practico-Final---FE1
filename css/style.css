@@ -303,7 +303,7 @@ form label {
 
 /* Sections Menu */
 
-nav.sections__menu {
+.sections__menu {
   /* padding: var(--large-size); */
   width: 100%;
 }
