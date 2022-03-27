@@ -321,6 +321,7 @@ form label {
 }
 
 .sections__menu-list-item a{
+  color: var(--light-color);
   font-size: var(--small-text);
   font-weight: var(--regular-font);
 }
