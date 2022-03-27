@@ -91,7 +91,7 @@ li {
   padding-inline: var(--regular-size);
 }
 
-.home-branding__heading {
+.home__branding--heading {
   color: var(--primary-color);
   font-size: var(--primary-heading-mobile);
   font-weight: var(--bold-font);
@@ -100,7 +100,7 @@ li {
   text-align: center;
 }
 
-.home-branding__content {
+.home__branding--content {
   color: var(--smooth-font-color);
   font-size: var(--regular-text);
   font-weight: var(--medium-font);
