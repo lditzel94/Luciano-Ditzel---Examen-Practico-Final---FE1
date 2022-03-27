@@ -148,7 +148,7 @@ li {
   color: var(--light-color);
   font-size: var(--regular-text);
   padding: var(--regular-size) 2rem;
-  transform: translateX(20%);
+  transform: translateX(25%);
 }
 
 .about-us__list-item--title span.about-us__list-item--description {
@@ -157,13 +157,12 @@ li {
   color: var(--primary-color);
   display: flex;
   justify-content: center;
-  padding-inline: var(--regular-size);
   width: 100%;
   z-index: -1;
 }
 
 .about-us__list-item--title span.about-us__list-item--description h3 {
-  font-size: var(--regular-text);
+  font-size: var(--small-text);
   font-weight: var(--bold-font);
   letter-spacing: -0.015rem;
   line-height: 23px;
