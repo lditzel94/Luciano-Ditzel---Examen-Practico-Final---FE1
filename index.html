@@ -8,33 +8,67 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
         href="./css/style.css">
-    <title>Manage App</title>
+    <title>Manage</title>
 </head>
 
 <body>
+    <header class="navbar">
+        <div>
+            <img src="./imagenes/logo.svg"></img>
+        </div>
+        <object class="hamburger"
+            data="./imagenes/icon-hamburger.svg"></object>
+        <nav>
+            <ul class="nav-link__list">
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </nav>
+
+        <a href="#"
+            class="btn--primary navbar-button">Get Started</a>
+
+    </header>
     <main>
-        <div class="background-pattern">
-            <header class="navbar">
-                <img src="./imagenes/logo.svg"></img>
-                <object data="./imagenes/icon-hamburger.svg"></object>
-            </header>
-            <section class="home">
+        <section class="home flex-container__fluid col-size-2">
+            <div class="home__banner--container">
                 <img class="home__banner"
                     src="./imagenes/illustration-intro.svg"></img>
-                <div class="home__branding">
-                    <h1 class="home__branding--heading">Bring everyone together to build better products.</h1>
-                    <p class="home__branding--content">Manage makes it simple for software teams to plan day-to-day tasks while keeping the large team goals in view </p>
-                    <a href="#"
-                        class="btn-primary">Get Started</a>
-                </div>
-            </section>
-        </div>
+            </div>
+            <div class="home__branding">
+                <h1 class="home__branding--heading">
+                    <p>Bring everyone</p>
+                    <p>together to build</p>
+                    <p>better products.</p>
+                </h1>
+                <h4 class="home__branding--content">
+                    <p>Manage makes it simple for software</p>
+                    <p>teams to plan day-to-day tasks while</p>
+                    <p> keeping the large team goals in view.</p>
+                </h4>
+                <a href="#"
+                    class="btn--primary">Get Started</a>
+            </div>
+        </section>
 
-        <section class="about-us">
+        <section class="about-us flex-container__fluid col-size-2">
             <div class="about-us__title">
-                <h2 class="about-us__heading">What's different about Manage? </h2>
-                <p class="about-us__content">Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams</p>
+                <h2 class="about-us__heading"> What's different about Manage?</h2>
+                <div class="about-us__content">
+                    <p>Manage provides all the functionality your</p>
+                    <p>team needs, without the complexity. Our</p>
+                    <p>software is tailor-made for modern digital</p>
+                    <p>product teams.</p>
+                </div>
             </div>
             <ul class="about-us__list">
                 <li class="about-us__list-item">
@@ -45,9 +79,8 @@
                         </span>
                     </div>
                     <div class="about-us__list-item--content">
-                        <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest
-                            of details. Never lose sight of the
-                            bigger picture again.</p>
+                        <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of
+                            thebigger picture again.</p>
                     </div>
                 </li>
 
@@ -83,40 +116,73 @@
                 <h2>What they've said</h2>
             </div>
 
-            <div class="testimonies__card">
-                <div class="testimonies__card--avatar">
-                    <img src="./imagenes/avatar-ali.png"
-                        alt="Ali Bravo">
-                </div>
-                <span class="testimonies__card--name">
-                    <h3>Ali Bravo</h3>
-                </span>
-                <span class="testimonies__card--testimony">
-                    <p>“We have been able to cancel so many other subscriptions since using manage. There ir no more cross-channel confusion and everyone is much more focused.”</p>
-                </span>
+            <ul class="flex-container__fluid col-size-3 gap-small">
+                <li class="testimonies__card hidden-small">
+                    <div class="testimonies__card--avatar">
+                        <img src="./imagenes/avatar-anisha.png"
+                            alt="Anisha Li">
+                    </div>
+                    <span class="testimonies__card--name">
+                        <h3>Anisha Li</h3>
+                    </span>
+                    <span class="testimonies__card--testimony">
+                        <p>“We have been able to cancel so many other subscriptions since using manage. There ir no more cross-channel confusion and everyone is much more focused.”</p>
+                    </span>
+                </li>
+                <li class="testimonies__card">
+                    <div class="testimonies__card--avatar">
+                        <img src="./imagenes/avatar-ali.png"
+                            alt="Ali Bravo">
+                    </div>
+                    <span class="testimonies__card--name">
+                        <h3>Ali Bravo</h3>
+                    </span>
+                    <span class="testimonies__card--testimony">
+                        <p>“We have been able to cancel so many other subscriptions since using manage. There ir no more cross-channel confusion and everyone is much more focused.”</p>
+                    </span>
+                </li>
+                <li class="testimonies__card hidden-small">
+                    <div class="testimonies__card--avatar">
+                        <img src="./imagenes/avatar-richard.png"
+                            alt="Richard Watts">
+                    </div>
+                    <span class="testimonies__card--name">
+                        <h3>Richard Watts</h3>
+                    </span>
+                    <span class="testimonies__card--testimony">
+                        <p>“We have been able to cancel so many other subscriptions since using manage. There ir no more cross-channel confusion and everyone is much more focused.”</p>
+                    </span>
+                </li>
+            </ul>
+
+
+
+            <a href="#"
+                class="btn--primary">Get Started</a>
+
+        </section>
+
+        <section class="ending flex-container__fluid col-size-2">
+            <div>
+                <h2 class="ending__title">Simplify how your team works today.</h2>
             </div>
-
             <a href="#"
-                class="btn-primary">Get Started</a>
-
+                class="btn--secondary">Get Started</a>
         </section>
+    </main>
 
-        <section class="ending">
-            <h2 class="ending__title">Simplify how your team works today.</h2>
-            <a href="#"
-                class="btn-secondary">Get Started</a>
-        </section>
-
-        <footer>
+    <footer>
+        <div class="footer-media__container">
             <form action="">
                 <label for="updates"></label>
-                <input type="text"
+                <!-- Añadir type email y selector por atributo en css -->
+                <input type="email"
                     name="updates"
                     id="updates"
                     placeholder="Update in your inbox...">
                 <div class="button-container">
                     <a href="#"
-                        class="btn-primary">Go</a>
+                        class="btn--primary">Go</a>
                 </div>
             </form>
 
@@ -139,22 +205,23 @@
 
             <section class="social-branding">
                 <div class="social-branding__social-links">
-                    <img src="./imagenes/icon-facebook.svg" alt="Facebook">
-                    <img src="./imagenes/icon-youtube.svg" alt="YouTube">
-                    <img src="./imagenes/icon-twitter.svg" alt="Twitter">
-                    <img src="./imagenes/icon-pinterest.svg" alt="Pinterest">
-                    <img src="./imagenes/icon-instagram.svg" alt="Instagram">
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-instagram"></i>
                 </div>
                 <div class="social-branding__logo-container">
-                    <img src="./imagenes/logo-inverted.svg" alt="Logo">
+                    <img src="./imagenes/logo-inverted.svg"
+                        alt="Logo">
                 </div>
             </section>
+        </div>
 
-            <section class="copyright">
-                <p>Copyright 2020. All Rights Reserved</p>
-            </section>
-        </footer>
-    </main>
+        <section class="copyright">
+            <p>Copyright 2020. All Rights Reserved</p>
+        </section>
+    </footer>
 </body>
 
 </html>
