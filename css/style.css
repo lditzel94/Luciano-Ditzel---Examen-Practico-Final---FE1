@@ -446,6 +446,10 @@ div.footer-media__container form label {
   opacity: 0.5;
 }
 
+input.btn--primary {
+  border: none;
+}
+
 .btn--secondary {
   color: var(--secondary-color);
   cursor: pointer;

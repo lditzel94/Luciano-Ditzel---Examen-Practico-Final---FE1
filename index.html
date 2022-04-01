@@ -173,7 +173,8 @@
 
     <footer>
         <div class="footer-media__container">
-            <form action="">
+            <form action="/action_page.php"
+                method="get">
                 <label for="updates"></label>
                 <!-- Añadir type email y selector por atributo en css -->
                 <input type="email"
@@ -181,8 +182,9 @@
                     id="updates"
                     placeholder="Update in your inbox...">
                 <div class="button-container">
-                    <a href="#"
-                        class="btn--primary">Go</a>
+                    <input type="submit"
+                        class="btn--primary"
+                        value="Go">
                 </div>
             </form>
 
