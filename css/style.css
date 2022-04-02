@@ -148,6 +148,10 @@ li {
   padding: var(--regular-size) 0;
 }
 
+.about-us__title {
+  min-width: 350px;
+}
+
 .about-us__heading {
   color: var(--primary-color);
   font-size: clamp(var(--secondary-heading), 2vw, 5rem);
